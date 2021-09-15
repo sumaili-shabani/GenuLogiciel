@@ -125,8 +125,8 @@ class user extends CI_Controller
     function basic_image(){
         $data['title']="Information basique de ma photo";
         $data['users'] = $this->crud_model->fetch_connected($this->connected);
-        $this->load->view('backend/user/basic_image', $data);
         $data['contact_info_site']  = $this->crud_model->Select_contact_info_site(); 
+        $this->load->view('backend/user/basic_image', $data);
     }
 
     function basic_secure(){

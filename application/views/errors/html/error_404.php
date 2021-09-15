@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 
     <?php 
-    $base_url = "http://localhost:82/yetu/";
+    $base_url = "http://localhost:82/genielogiciel/";
 
 
      ?>

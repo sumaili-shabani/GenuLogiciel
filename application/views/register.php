@@ -26,7 +26,7 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Création de compte</h1>
                                        <span>
-                                    		Créer un nouveau compte au système Ets YETU.
+                                    		Créer un nouveau compte au système.
                                     	</span>
                                     </div>
                                     <form class="user" method="post" id="user_form" enctype="multipart/form-data" action="<?= base_url(); ?>login/register_validation">

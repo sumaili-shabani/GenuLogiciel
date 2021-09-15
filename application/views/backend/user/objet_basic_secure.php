@@ -1,7 +1,7 @@
 <div class="col-md-12">
 
 	<!-- form commence -->
-	<form method="post" id="user_form" enctype="multipart/form-data" action="<?= base_url(); ?>entreprise/modification_account">
+	<form method="post" id="user_form" enctype="multipart/form-data" action="<?= base_url(); ?>user/modification_account">
         <div class="col-md-12">
     		<div class="text-center" align="center">
         		<?php

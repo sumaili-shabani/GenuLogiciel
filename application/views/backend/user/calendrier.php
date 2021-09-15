@@ -4,6 +4,7 @@
 $message;
 $debit_event;
 $fin_event;
+$this->db->group_by("idmath");
 $evenement=$this->db->get('profile_reservation');
 if ($evenement->num_rows() > 0) {
   foreach ($evenement->result_array() as $row) {
